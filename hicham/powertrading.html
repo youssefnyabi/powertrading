@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PowerTrading - Vente d'Outils et Équipements</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #001f3f;
+            color: white;
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .logo {
+            font-size: 2em;
+            font-weight: bold;
+            margin-left: 20px;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-right: 20px;
+        }
+
+        nav ul li {
+            display: inline;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #ffcc00;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        section {
+            margin: 20px 0;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        h2 {
+            color: #001f3f;
+            margin-bottom: 15px;
+        }
+
+        .section-image {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin: 10px 0;
+        }
+
+        .whatsapp-button {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 10px 20px;
+            background-color: #25D366;
+            color: white;
+            font-size: 16px;
+            font-weight: bold;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background 0.3s;
+        }
+
+        .whatsapp-button:hover {
+            background-color: #1ebe5d;
+        }
+
+        .whatsapp-button:focus {
+            outline: none;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #001f3f;
+            color: white;
+            margin-top: 20px;
+        }
+
+        @media (max-width: 768px) {
+            header {
+                flex-direction: column;
+                text-align: center;
+            }
+            .logo {
+                margin-bottom: 10px;
+            }
+            nav ul {
+                flex-direction: column;
+                gap: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">PowerTrading</div>
+        <nav>
+            <ul>
+                <li><a href="#outillage-electroportatif">Outillage Électroportatif</a></li>
+                <li><a href="#outillage-main">Outillage à Main</a></li>
+                <li><a href="#outils-coupant-abrasifs">Outils Coupants et Abrasifs</a></li>
+                <li><a href="#equipement-atelier">Équipement d'Atelier</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="outillage-electroportatif">
+            <h2>Outillage Électroportatif</h2>
+            <img src="OUTILLAGE1.jpg" width="280px" height="280px" alt="Outillage Électroportatif" class="section-image">
+            <p>Découvrez nos outils électroportatifs de haute qualité pour tous vos travaux.</p>
+            
+            <a href="https://wa.me/?text=Je%20souhaite%20commander%20des%20outils%20électroportatifs" target="_blank" class="whatsapp-button">Commander sur WhatsApp</a>
+        </section>
+
+        <section id="outillage-main">
+            <h2>Outillage à Main</h2>
+            <img src="cles.jpg" width="280px" height="280px" alt="Outillage à Main" class="section-image">
+            <p>Clés, tournevis et bien plus pour un bricolage précis et efficace.</p>
+            <a href="https://wa.me/?text=Je%20souhaite%20commander%20des%20outils%20à%20main" target="_blank" class="whatsapp-button">Commander sur WhatsApp</a>
+        </section>
+
+        <section id="outils-coupant-abrasifs">
+            <h2>Outils Coupants et Abrasifs</h2>
+            <img src="download.jpg" width="280px" height="280px" alt="Outils Coupants et Abrasifs" class="section-image">
+            <p>Une sélection d'outils idéaux pour le travail du métal, du bois et autres matériaux.</p>
+            <a href="https://wa.me/?text=Je%20souhaite%20commander%20des%20outils%20coupants%20et%20abrasifs" target="_blank" class="whatsapp-button">Commander sur WhatsApp</a>
+        </section>
+
+        <section id="equipement-atelier">
+            <h2>Équipement d'Atelier</h2>
+            <img src="warningsign.jpg" width="280px" height="280px" alt="Équipement d'Atelier" class="section-image">
+            <p>Rangements, établis et bien plus pour un atelier organisé.</p>
+            <a href="https://wa.me/?text=Je%20souhaite%20commander%20de%20l'équipement%20d'atelier" target="_blank" class="whatsapp-button">Commander sur WhatsApp</a>
+        </section>
+    </main>
+
+    <footer>
+        
+        <p>Power Trading<br>
+           <a href="https://maps.app.goo.gl/gscCdaVrwR5E5q6M9">120 Bd Grande Ceinture Derb El Wifak Imm Lilya li, 2éme étage.</a><br>
+           N°20 Hay Mohammadi - Hay Mohammadi, CASABLANCA<br>
+           ----------------------------------------<br>
+           <a href="email.com">Email: ************@gmail.com</a><br>
+           Tel: 06 66 66 66 66</p>
+           <p>&copy; 2025 PowerTrading. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
